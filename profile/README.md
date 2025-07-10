@@ -11,7 +11,7 @@ Essential utilities for PHP development workflow optimization and runtime manage
 
 ## Current Projects
 
-### DLoad
+### [DLoad](https://github.com/php-internal/dload)
 Smart binary downloader that automates tool distribution. Download platform-specific binaries like RoadRunner, Temporal, or custom tools with cross-platform compatibility and team synchronization.
 
 ## Useful Tools
