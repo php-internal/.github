@@ -14,6 +14,9 @@ Essential utilities for PHP development workflow optimization and runtime manage
 ### [DLoad](https://github.com/php-internal/dload)
 Smart binary downloader that automates tool distribution. Download platform-specific binaries like RoadRunner, Temporal, or custom tools with cross-platform compatibility.
 
+### [Promise](https://github.com/php-internal/promise)
+A lightweight PHP implementation of CommonJS Promises/A with PHP 8.1+ support, strict type declarations, and enhanced type annotations. This fork of ReactPHP's promise library provides improved rejection handling and better developer experience while maintaining full API compatibility.
+
 ## Useful Tools
 
 **[Buggregator Trap](https://github.com/buggregator/trap)** - Local debug server with enhanced Symfony VarDumper integration. Supports multiple protocols (Monolog, Sentry, SMTP, HTTP dumps) and provides rich debugging capabilities for PHP applications.
