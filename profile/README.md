@@ -17,6 +17,14 @@ Smart binary downloader that automates tool distribution. Download platform-spec
 ### [Promise](https://github.com/php-internal/promise)
 A lightweight PHP implementation of CommonJS Promises/A with PHP 8.1+ support, strict type declarations, and enhanced type annotations. This fork of ReactPHP's promise library provides improved rejection handling and better developer experience while maintaining full API compatibility.
 
+### [Destroy](https://github.com/php-internal/destroy)
+
+Explicit resource management library for PHP applications that eliminates memory leaks caused by circular references.
+Provides the `Destroyable` interface for deterministic cleanup when `__destruct()` fails, particularly in complex object graphs and long-running processes.
+Essential for daemon applications, event systems, and any scenario requiring reliable resource deallocation beyond PHP's garbage collector capabilities.
+
+
+
 ## Useful Tools
 
 **[Buggregator Trap](https://github.com/buggregator/trap)** - Local debug server with enhanced Symfony VarDumper integration. Supports multiple protocols (Monolog, Sentry, SMTP, HTTP dumps) and provides rich debugging capabilities for PHP applications.
